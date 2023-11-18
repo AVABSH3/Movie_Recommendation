@@ -31,27 +31,31 @@ pip install -r requirements.txt
 streamlit run Movie.py
 
 
-Usage
+## Usage
 Open the provided URL in your web browser.
 Enter the title of a movie you enjoyed.
 Receive personalized movie recommendations based on cosine similarity.
-Features
+
+## Features
 Cosine similarity for accurate movie recommendations.
 Interactive web interface hosted with Streamlit.
 Utilizes TMDb dataset for a diverse selection of 5000 movies.
-Data Source
+
+## Data Source
 The dataset used for this project is sourced from TMDb (The Movie Database). It contains information on 5000 movies, including details such as genres, cast, crew, and user ratings.
 
-Dependencies
+## Dependencies
 Python 3.7+
 Streamlit
 NumPy
 Pandas
 Scikit-learn
-Acknowledgements
+
+## Acknowledgements
 TMDb for providing the movie dataset.
 Streamlit for enabling the creation of a user-friendly web interface.
-License
+
+## License
 This project is licensed under the MIT License.
 
 
